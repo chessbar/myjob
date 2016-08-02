@@ -1,0 +1,184 @@
+
+/*内容区域右边盒子开始*/
+.content .right_box{
+	padding-bottom: 0;
+}
+.content .right_box .tab_box{
+	width:761px;
+	height:30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	background: url(../images/02.gif)  0 100% repeat-x;
+}
+.content .right_box .tab_box a{
+	float: left;
+	display: block;
+	width:90px;
+	height:28px;
+	border:1px solid #CDE3F3;
+	color:#666666;
+	line-height: 28px;
+	margin-left: 8px;
+	text-align: center;
+	background: #F1FBFE;
+
+}
+.content .right_box .tab_box a.select{
+	background: #ffffff;
+	border-bottom:1px solid #FFFFFF;
+}
+.content .right_box .tab_box a.select:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+
+table{
+	width:97%;
+	border-collapse:collapse;
+	/*text-align: center;*/
+	margin-left:10px;
+}
+.h_26{
+	width: 90px;
+	height:26px;
+	text-align: left;
+}
+.h_26 a{
+	width: 60px;
+	height:26px;
+	text-align: left;
+}
+.w_80{
+	width:80px;
+}
+.w_120{
+	width:120px;
+}
+.w_150{
+	width:150px;
+}
+.w_50{
+	width:110px;
+}
+.w_90{
+	width:90px;
+}
+.blue{
+	color:blue;
+}
+
+tr.font td{
+	font-size: 12px;
+	color:#666666;
+	font-weight: 400;
+}
+tr.font{
+	font-size: 11px;
+	color:#666666;
+}
+
+table tr.title td{
+	font-size: 12px;
+	font-weight: 700;
+	color:#333333;
+	text-align: center;
+	width:90px;
+
+}
+table tr.title td.h_26{
+	text-align: left;
+	width:180px;
+}
+table tr td{
+	font-size: 12px;
+	color:#333333;
+	text-align: center;
+
+}
+.content .right_box tr.us_list{
+	width:761px;
+	margin-top:10px;
+	font-size: 12px;
+	line-height: 28.8px;
+	color:#333333;
+	margin-left: 10px;
+	border-top:1px dashed #CCCCCC;
+}
+.content .right_box tr.tr_height{
+	width:100%;
+	font-size: 12px;
+	line-height: 28.8px;
+	color:#333333;	
+}
+.content .right_box tr.tr_height td{
+	text-align: left;
+}
+.content .right_box tr.us_list td{
+	text-align: left;
+	height: 40px;
+	width:100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+tr.font td.red{
+	color:#FF6600;
+}
+
+.content .right_box div.page_box .page{
+	margin-left: 10px;
+	height:50px;
+	padding-top:20px;
+	margin:0 auto;
+	text-align: center;
+	width: 300px;
+}
+.content .right_box div.page_box .page a{
+	display: block;
+	float: left;
+	height:23px;
+	margin-right:5px;
+	padding-left:6px;
+	padding-right: 6px;
+	text-align: center;
+	line-height: 23px;
+	border:1px solid #DDDDDD;
+	color:#333333;
+	font-size: 12px;
+}
+.content .right_box div.page_box .page a:hover{
+	color:#0066CC;
+	text-decoration:underline;
+	border:1px solid #0066CC;
+}
+
+table tr td .sub{
+	float: left;
+	display: block;
+	width:95px;
+	height:28px;
+	background: url(../Images/23.gif) repeat-x;
+	font-size: 12px;
+	color:#000000;
+	font-family: "Lucida Grande";
+	text-align: center;
+	/*margin-top: 20px;*/
+	cursor: pointer;
+	margin-right: 10px;
+}
+table tr td .progress{
+	float:left;
+	line-height:10px;
+	margin-bottom:5px;
+	font-size: 10px;	
+	margin-left: 3px;
+}
+
+
+table tr td .sub_bg{
+	background: url(../Images/23.gif) 0 -28px no-repeat;
+}
+.td_blue a{
+	color: #0066CC;
+}

@@ -1,0 +1,579 @@
+body{
+	position: relative;
+}
+table.resume_show{
+	width:650px;
+	margin-top:8px;
+	border:0;
+	margin:0 auto;
+}
+
+table.resume_show tr td.link_lan a{
+	font-size: 12px;
+	color:#0066CC;
+	text-decoration: none;
+}
+table.resume_show tr td.link_lan a:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+table.resume_show tr td.link_lan span{
+	color:#999999;
+	font-size: 12px;
+}
+table.resume_show tr td.link_bk{
+	text-align:right;
+}
+table.resume_show tr td.link_bk a{
+	font-size: 12px;
+	color:#4D4D4D;
+	text-decoration: none;
+}
+table.resume_show tr td.link_bk a:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+
+table.resume_info{
+	width:650px;
+	margin-top:8px;
+	background: #CCCCCC;
+	margin:8px auto;
+	border:0;
+}
+table.resume_info_last{
+	margin-bottom: 50px;
+}
+table.resume_info td.down_connect{
+	text-align: center;
+}
+table.resume_info td .add_storge{
+	margin-top: 30px;
+}
+table.resume_info td .add_storge a{
+	color: #406ECE;
+}
+table.resume_info tr td.btit{
+	padding:10px;
+	background: #FFFFFF;
+}
+table.resume_info tr td.btit h1{
+	font-size: 30px;
+	color:#666666;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+table.resume_info tr div.tip{
+	font-size: 12px;
+	color:#FF6600;
+	line-height: 19.2px;
+}
+table.resume_info tr div.tip span{
+	color:#009900;
+}
+table.resume_info tr div.tip span.click{
+	color:#FF6600;
+}
+table.resume_info tr td.title{
+	background: #FAFAFA;
+	padding-left:15px;
+}
+table.resume_info tr td.title strong{
+	color:#666666;
+	font-size: 14px;
+}
+table.resume_info tr td.name{
+	width:80px;
+	background: #FAFAFA;
+	text-align: right;
+	font-size: 12px;
+	color:#666666;
+}
+table.resume_info tr td{
+	background: #FFFFFF;
+	font-size: 12px;
+	color:#666666;
+}
+table.resume_info tr td.pic{
+	width:140px;
+	background: #FFFFFF;
+	text-align: center;
+}
+table.resume_info tr td.pic img{
+	width:120px;
+	height: 150px;
+}
+table.resume_info tr td.int_name{
+	width:120px;
+	background: #FAFAFA;
+	text-align: right;
+}
+table.resume_info tr td{
+	background: #FFFFFF;
+}
+table.resume_info tr td div.contact{
+	height:20px;
+	padding-top:3px;
+	padding-left:8px;
+	padding-right:3px;
+	padding-bottom: 3px;
+	border:1px solid #FF9900;
+	font-size: 12px;
+	color:#666666;
+	line-height: 20px;
+	background: #FDFBF0;
+}
+table.resume_info tr td div.contact a{
+	font-size: 12px;
+	color:#0066CC;
+	line-height: 20px;
+	text-decoration: none;
+}
+table.resume_info tr td div.contact a:hover{
+	color:#009900;
+	text-decoration: underline;
+}
+table.sub{
+	height:100px;
+	border:0;
+}
+
+/*添加到人才库盒子开始*/
+.show_bank{
+	position: absolute;
+	top:115px;
+	left:385px;
+	width:512px;
+	height:96px;
+	background: #000000;
+	opacity:0.2;
+	display: none;
+}
+.bank{
+	position: absolute;
+	top:120px;
+	left:390px;
+	width:500px;
+	height:84.4px;
+	border:1px solid #999999;
+	overflow: hidden;
+	display: none;
+	z-index: 999;
+}
+.bank .title{
+	height:30px;
+	background: url(../Images/72.gif) repeat-x;
+	line-height: 30px;
+}
+.bank .title h4{
+	float: left;
+	font-size: 14px;
+	color:#333333;
+	line-height: 16px;
+	padding-top: 7px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 0;
+}
+
+.close{
+	display: block;
+	float: right;
+	width:30px;
+	height:30px;
+	background: url(../Images/72.gif) 0 -30px no-repeat;
+	cursor:pointer;
+}
+
+.span_bg{
+	background: url(../Images/72.gif) 0 -60px no-repeat;
+}
+.bank .content{
+	padding-top:20px;
+	padding-right:15px;
+	padding-bottom:20px;
+	padding-left:15px;
+	background: #FFFFFF;
+	font-size: 12px;
+	color:#666666;
+}
+/*添加到人才库盒子结束*/
+
+/*未登录时添加人才库盒子*/
+.bg_bank{
+	position: absolute;
+	top:115px;
+	left:385px;
+	width:512px;
+	height:329px;
+	background: #000000;
+	opacity:0.2;
+	display: none;
+}
+.bank_logo{
+	position: absolute;
+	width:500px;
+	height:317px;
+	top:120px;
+	left:390px;
+	border:1px solid #999999;
+	display: none;
+	z-index: 999;
+}
+.bank_logo .bank_logo_title{
+	height:30px;
+	background: url(../Images/72.gif) repeat-x;
+	line-height: 30px;
+}
+.bank_logo .bank_logo_title h4{
+	float: left;
+	font-size: 14px;
+	color:#333333;
+	line-height: 16px;
+	padding-top: 7px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 0;
+}
+.bank_logo .content_logo{
+	padding-top:20px;
+	padding-right:15px;
+	padding-bottom:20px;
+	padding-left:15px;
+	background: #FFFFFF;
+}
+.bank_logo .content_logo .logo_txt{
+	height:28px;
+	margin-bottom:15px;
+	padding-left:10px;
+	border:1px solid #C1E4F7;
+	line-height: 28px;
+	background: #F1F9FE;
+	font-size: 14px;
+	font-weight: 700;
+	color:#0066CC;
+}
+.bank_logo .content_logo table tr td.name{
+	width:50px;
+	height:35px;
+	text-align: right;
+	padding-right: 10px;
+	font-size: 12px;
+	color:#666666;
+}
+.bank_logo .content_logo table tr td.txt_input input{
+	width:165px;
+	height:18px;
+	padding:3px;
+	line-height: 14px;
+	border:1px solid #CCCCCC;
+}
+.bank_logo .content_logo table tr td.lab label{
+	font-size: 12px;
+	color:#666666;
+}
+.bank_logo .content_logo table tr td.lab label input{
+	font-size: 12px;
+	width:none;
+}
+.bank_logo .content_logo .sub_box{
+	position: relative;
+	width:470px;
+	height:60px;
+	border-bottom: 1px solid #E8E8E8;
+}
+.bank_logo .content_logo .sub_box input.sub{
+	position: absolute;
+	left:60px;
+	top:10px;
+	width:81px;
+	height:32px;
+	background: url(../Images/36.jpg) no-repeat;
+	font-size: 14px;
+	font-weight: 700;
+	color:#FFFFFF;
+	border:none;
+}
+.bank_logo .content_logo .sub_box a.forget_pwd{
+	position: absolute;
+	left:170px;
+	top:20px;
+	font-size: 12px;
+	color:#4D4D4D;
+	text-decoration: none
+}
+.bank_logo .content_logo .reg{
+	height:52px;
+	color:#666666;
+	font-size: 12px;
+	text-indent: 50px;
+	line-height: 50px;
+}
+.bank_logo .content_logo .reg a{
+	font-size: 12px;
+	color:#0066CC;
+}
+/*未登录时添加人才库盒子结束*/
+/*成功添加人才库盒子*/
+.success_bg{
+	position: absolute;
+	width:512px;
+	height:243px;
+	top:115px;
+	left:385px;
+	background: #000000;
+	opacity:0.2;
+	display: none;
+}
+.success_box{
+	position: absolute;
+	top:120px;
+	left:390px;
+	width:500px;
+	border:1px solid #999999;
+	display: none;
+	z-index: 999;
+}
+.success_box .success_title{
+	height:30px;
+	background: url(../Images/72.gif) repeat-x;
+	line-height: 30px;
+}
+.success_box .success_title h4{
+	float:left;
+	font-size: 14px;
+	color:#333333;
+	padding-top:7px;
+	padding-right:10px;
+	padding-left:10px;
+	line-height: 16px;
+	margin-top:0;
+}
+.success_box .success_content{
+	position: relative;
+	height:200px;
+	background: #FFFFFF;
+}
+.success_box .success_content img{
+	position: absolute;
+	top:30px;
+	left:50px;
+}
+.success_box .success_content span{
+	position: absolute;
+	top:30px;
+	left:105px;
+	font-size: 14px;
+	color:#0066CC;
+	font-weight: 800;
+}
+.success_box .success_content .com_box{
+	position: absolute;
+	top:58px;
+	left: 105px;
+	height:100px;
+	width:366px;
+	border-top:1px solid #CCCCCC;
+}
+.success_box .success_content .com_box a{
+	display: block;
+	text-decoration:none;
+	font-size: 12px;
+	color:#0066CC;
+	margin-top:10px;
+}
+.success_box .success_content .com_box a:hover{
+	color:#009900;
+	text-decoration: underline;
+}
+/*成功添加人才库盒子结束*/
+
+/*重复不让添加人才库盒子*/
+.error_bank{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width:512px;
+	height:96px;
+	background: #000000;
+	opacity:0.2;
+	display: none;
+}
+.errorbank{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width:500px;
+	height:84.4px;
+	border:1px solid #999999;
+	overflow: hidden;
+	display: none;
+	z-index: 999;
+}
+.errorbank .title{
+	height:30px;
+	background: url(../Images/72.gif) repeat-x;
+	line-height: 30px;
+}
+.errorbank .title h4{
+	float: left;
+	font-size: 14px;
+	color:#333333;
+	line-height: 16px;
+	padding-top: 7px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 0;
+}
+.close{
+	display: block;
+	float: right;
+	width:30px;
+	height:30px;
+	background: url(../Images/72.gif) 0 -30px no-repeat;
+	cursor:pointer;
+}
+.span_bg{
+	background: url(../Images/72.gif) 0 -60px no-repeat;
+}
+.errorbank .content{
+	padding-top:20px;
+	padding-right:15px;
+	padding-bottom:20px;
+	padding-left:15px;
+	background: #FFFFFF;
+	font-size: 12px;
+	color:#666666;
+}
+/*重复不让添加人才库盒子结束*/
+
+/*重复不让添加人才库盒子*/
+.invite_bank{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width:512px;
+	height:96px;
+	background: #000000;
+	opacity:0.2;
+	display: none;
+}
+.invitebank{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width:500px;
+	height:84.4px;
+	border:1px solid #999999;
+	overflow: hidden;
+	display: none;
+	z-index: 999;
+}
+.invitebank .title{
+	height:30px;
+	background: url(../Images/72.gif) repeat-x;
+	line-height: 30px;
+}
+.invitebank .title h4{
+	float: left;
+	font-size: 14px;
+	color:#333333;
+	line-height: 16px;
+	padding-top: 7px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 0;
+}
+.close{
+	display: block;
+	float: right;
+	width:30px;
+	height:30px;
+	background: url(../Images/72.gif) 0 -30px no-repeat;
+	cursor:pointer;
+}
+.span_bg{
+	background: url(../Images/72.gif) 0 -60px no-repeat;
+}
+.invitebank .content{
+	padding-top:20px;
+	padding-right:15px;
+	padding-bottom:20px;
+	padding-left:15px;
+	background: #FFFFFF;
+	font-size: 12px;
+	color:#666666;
+}
+/*重复不让添加人才库盒子结束*/
+/*邀请面试成功弹窗*/
+/*黑色背景盒子*/
+.big_bank{
+	height:328px;
+}
+/*黑色背景盒子结束*/
+/*背景盒子上面的盒子开始*/
+.big_invitebank{
+	height:316px;
+	background: #FFFFFF;
+}
+/*盒子里除了标题盒子的内容部分开始*/
+.big_content{
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:15px;
+	padding-left:15px;
+}
+.big_content table{
+	width:100%;
+	border:0;
+}
+.big_content table tr td.name{
+	width:100px;
+	text-align:right;
+}
+.big_content table tr td textarea{
+	width:300px;
+	height:80px;
+	font-size: 16px;
+	color:#000000;
+}
+.big_content table tr td input.sub{
+	width:100px;
+	height:32px;
+	font-size: 14px;
+	font-weight: 700;
+	color:#FFFFFF;
+	background: url(../Images/41.jpg) no-repeat;
+	border:none;
+}
+.big_content table tr td a{
+	text-decoration: none;
+	font-size: 12px;
+	color:#0066CC;
+	margin-right: 5px;
+}
+.big_content table tr td a:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+.h_30{
+	height:30px;
+}
+/*盒子里除了标题盒子的内容部分结束*/
+/*背景盒子上面的盒子结束*/
+
+/*邀请面试成功弹窗结束*/
+/*遮罩*/
+.BG{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+}
+.invitebank .content .description{
+	font-size: 12px;
+	padding: 5px;
+	font-family: "微软雅黑";
+}

@@ -1,0 +1,257 @@
+
+/*注册大盒子开始*/
+.reg_box{
+	width:960px;
+	margin:0 auto;
+	border:1px solid #DDDDDD;
+	overflow: hidden;
+}
+.reg_box .reg_box_tit{
+	width:940px;
+	height:43px;
+	padding-left: 20px;
+	border-bottom: 1px solid #DDDDDD;
+	background: url(../images/38.jpg) repeat-x;
+}
+.reg_box .reg_box_tit strong{
+	font-size: 14px;
+	color:#666666;
+	line-height: 43px;
+	font-family: 	Arial,​Helvetica,​sans-serif;
+}
+.reg_box div.ent{
+	position: relative;
+	float: left;
+	width:408px;
+	height: 230px;
+	margin-top:30px;
+	margin-bottom: 50px;
+	padding-left: 35px;
+	border-right:1px solid #DDDDDD;
+}
+.reg_box div.ent img{
+	position: absolute;
+	left:113px;
+	top:10px;
+}
+.reg_box div.ent .reg_logo_box{
+	position: absolute;
+	left:165px;
+	top:20px;
+	color:#666666;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 	Arial,​Helvetica,​sans-serif;
+}
+.reg_box div.ent ul{
+	position: absolute;
+	left:165px;
+	top:56px;
+}
+.reg_box div.ent ul li{
+	line-height: 21.6px;
+	font-size: 12px;
+	color:#0066CC;
+	font-family: 	Arial,​Helvetica,​sans-serif;
+}
+.reg_box div.ent ul li.one{
+	margin-top: 30px;
+}
+.reg_box div.ent div.btn .but{
+	display: block;
+	position: absolute;
+	top:180px;
+	left:155px;
+	font-family: "SimSun";
+	font-size: 14px;
+	font-weight: 700;
+	color:#FFFFFF;
+	line-height: 32px;
+	width:100px;
+	height: 32px;
+	background: url(../images/41.jpg) no-repeat;
+	cursor: pointer;
+	text-align: center;
+}
+.reg_box div.ent div.btn .bg{
+	background: url(../images/41.jpg) 100% -32px no-repeat;
+}
+.reg_box div.ent2{
+	border-right:none;
+}
+/*注册大盒子结束*/
+.reg-box{
+	position: relative;
+	width: 960px;
+	height: 389px;
+	border: 1px solid #dddddd;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.reg-box .box-bar{
+	width: 960px;
+	height: 43px;
+	background: url('../images/reg-bar.jpg') repeat-x;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+}
+.reg-box .box-bar h2{
+	font-size: 14px;
+	font-weight: 700;
+	color: #666666;
+	position: absolute;
+	left: 21px;
+	top: 15px;
+}
+.reg-box .box-bar p{
+	font-size: 12px;
+	color: #666;
+	position: absolute;
+	left: 138px;
+	top:15px;
+}
+.reg-box .box-bar p a{
+	color: #0066CC;
+	padding: 0 4px;
+}
+.reg-box .box-bar p a:hover{
+	text-decoration: underline;
+	color: #009900;
+}
+.reg-box .reg-form{
+	position: absolute;
+	left: 47px;
+	top: 85px;
+	width: 260px;
+	height: 229px;
+}
+.reg-box .reg-form label{
+	font-size: 12px;
+	color: #666;
+	display: block;
+	width: 550px;
+	text-align: right;
+	margin-top: 14px;
+	position: relative;
+	height: 26px;
+}
+.reg-box .reg-form label input{
+	border: 1px solid #ddd;
+	width: 166px;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 4px;
+	margin-right: 270px;
+}
+.reg-box .reg-form label input.border-blue{
+	border: 1px solid #33CCFF;
+}
+
+.reg-box .reg-form label #form-check{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	left: 86px;
+	top: -4px;
+}
+.reg-box .reg-form label span{
+	position: absolute;
+	left: 280px;
+}
+.reg-box .reg-form label span.already{
+	position: absolute;
+	left: 105px;
+	top: -2px;
+}
+
+.reg-box .reg-form .but{
+	position: absolute;
+	top:-15px;
+	left:85px;
+	font-family: "SimSun";
+	font-size: 14px;
+	font-weight: 700;
+	color:#FFFFFF;
+	line-height: 32px;
+	width:100px;
+	height: 32px;
+	padding-left: 5px;
+	background: url(../images/41.jpg) no-repeat;
+	cursor: pointer;
+	border: none;
+}
+.reg-box .reg-form .bg{
+	background: url(../images/41.jpg) 100% -32px no-repeat;
+}
+.reg-box .reg-form span a{
+	color: #0066CC;
+}
+.reg-box .reg-form span a:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+.reg-box .reg-right{
+	width: 359px;
+	height: 265px;
+	position: absolute;
+	top: 73px;
+	right: 0px;
+	border-left: 1px solid #ddd;
+}
+.reg-box .reg-right .right-box{
+	position: absolute;
+	left: 78px;
+	top: 14px;
+	height: 251px;
+	width: 195px;
+}
+.reg-box .reg-right .right-box h2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	font-weight: 700px;
+	font-size: 14px;
+	color: #666666;
+}
+.reg-box .reg-right .right-box a{
+	display: block;
+	position: absolute;
+	top:30px;
+	left:0px;
+	font-family: "SimSun";
+	font-size: 14px;
+	font-weight: 700;
+	color:#FFFFFF;
+	line-height: 32px;
+	width:81px;
+	height: 32px;
+	padding-left: 19px;
+	background: url(../images/41.jpg) no-repeat;
+	cursor: pointer;
+}
+.reg-box .reg-right .right-box .bg{
+	background: url(../images/41.jpg) 100% -32px no-repeat;
+}
+.reg-box .reg-right .right-box span{
+	position: absolute;
+	left: 0px;
+	top: 76px;
+	font-weight: 600;
+	color: #009900;
+	font-size: 14px;
+
+}
+.reg-box .reg-right .right-box span.box-down-span{
+	top: 150px;
+}
+.reg-box .reg-right .right-box p{
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	color: #666;
+	font-size: 12px;
+	line-height: 20px;
+}
+.reg-box .reg-right .right-box p.box-down-p{
+	top: 173px;
+}

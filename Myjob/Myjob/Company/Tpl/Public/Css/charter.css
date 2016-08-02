@@ -1,0 +1,107 @@
+table{
+	width:100%;
+	margin-bottom: 100px;
+}
+table tr td {
+    border-bottom: 1px dashed #CCCCCC;
+    color: #333333;
+    font-size: 12px;
+}
+table tr td.link_lan{
+	padding-left:20px;
+	color:#009900;
+	line-height: 24px;
+	color:#009900;
+	font-size:12px;
+
+}
+table tr td.link_lan span{
+	color:#0066CC;
+	cursor:pointer;
+}
+table tr td.state{
+	width:139px;
+	height:30px;
+	font-size:12px;
+	color:#333333;
+	text-align: right;
+	padding-left: 10px;
+}
+table tr td.wam{
+	color:#FF0000;
+	font-size:12px;
+}
+table tr td.num{
+	height:30px;
+	text-align: right;
+	font-size: 12px;
+	color:#333333;
+}
+
+table tr td.inp input{
+	width:200px;
+	/*height:16px;*/
+	padding:3px;
+	border:1px solid #7F9DB9;
+	font-size: 12px;
+	color:#000000;
+	vertical-align: middle;
+}
+table tr td.pic{
+	height:30px;
+	text-align: right;
+	font-size: 12px;
+	color:#333333;
+}
+table tr td.pic_inp{
+	font-size: 12px;
+	color:#333333;
+	height:50px;
+}
+table tr td.pic_inp input{
+	width:200px;
+	height:24px;
+	color:#333333;
+	font-size: 12px;
+	border:none;
+	background: #FFFFFF;
+	cursor:pointer;
+}
+table tr td.sub input{
+	width:95px;
+	height:28px;
+	font-size: 12px;
+	color:#000000;
+	background: url(../images/23.gif) repeat-x;
+	cursor:pointer;
+}
+table tr td.sub input.sub_bg{
+	background: url(../images/23.gif) 0 -28px no-repeat;
+}
+table tr.hid_tr{
+	display:none;
+}
+table tr.hid_tr td.txt{
+	text-align: right;
+}
+table tr.hid_tr td{
+	background:#EAF4F7;
+	color:#333333;
+	font-size: 12px;
+
+}
+table tr.hid_tr td p{
+	color:#333333;
+	font-size:12px; 
+	line-height: 23px;
+}
+table tr td.txt_tit{
+	height:30px;
+	text-align: right;
+	font-size: 12px;
+	color:#333333;
+}
+table tr td.txt_pic div{
+	width:500px;
+	overflow: hidden;
+}

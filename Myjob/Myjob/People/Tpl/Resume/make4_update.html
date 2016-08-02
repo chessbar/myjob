@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>后盾招聘创建简历第一步-教学项目</title>
+<link rel="stylesheet" type="text/css" href="__STATIC__/Css/style.css">
+<link rel="stylesheet" type="text/css" href="__STATIC__/Css/common.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/member-common-left.css">
+	<link rel="stylesheet" href="__PUBLIC__/Css/found.css" />
+	{hdjs}
+	<script type="text/javascript">
+		$(function(){
+			//开始时间
+			$('#starttime').calendar({format: 'yyyy-MM-dd'}); 
+			//结束时间
+			$('#endtime').calendar({format: 'yyyy-MM-dd'}); 
+		})
+	</script>
+
+</head>
+<body>
+
+
+
+{load file="__STATIC__/Tpl/header.html"}
+{load file="__STATIC__/Tpl/member_menu.html"}
+	<!-- 内容大盒子开始 -->
+	<div class="content">
+		<!-- 左边盒子 -->
+
+		{load file="__STATIC__/Tpl/member_left.html"}
+		<!-- 左边盒子结束 -->
+		<!-- 右边盒子开始 -->
+		<div class="right_box">
+			<div class="title_box">
+				<h1>我的简历</h1>
+			</div>
+			<div class="one_box">
+				<span class="one"> 修改教育经历</span>
+				<span class="two">
+				(带
+				<strong>*</strong>
+				的为必填)
+				</span>
+			</div>
+			<!-- 简历填写内容开始 -->
+			<div class="one_con">
+				<form action="" method="post" id="make4_form">
+					<table>
+						<tr class="resume_edu">
+							<td class="one_con_left">修改教育经历</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="one_con_left"><strong>*</strong>开始日期：</td>
+							<td>
+								<input type="text" readonly="readonly" id="starttime" name="starttime" value="<?php echo date('Y-m-d',$data['starttime'])?>" class="w150"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="one_con_left"><strong>*</strong>结束日期：</td>
+							<td>
+								<input type="text" readonly="readonly" id="endtime" name="endtime" value="<?php echo date('Y-m-d',$data['endtime'])?>" class="w150"/>
+							</td>
+						</tr>
+						<tr>
+							<td class="one_con_left"><strong>*</strong>学校名称：</td>
+							<td>
+								<input type="text" name="schoolname" id="" value="{$data.schoolname}">
+							</td>
+						</tr>
+						<tr>
+							<td class="one_con_left"><strong>*</strong>专业名称：</td>
+							<td>
+								<input type="text" name="skillname" id="" value="{$data.skillname}">
+							</td>
+						</tr>
+						<tr>
+							<td class="one_con_left"><strong>*</strong>选择学历：</td>
+							<td>
+								<select name="edu" class="select_box">
+									<option value="0">请选择学历</option>
+									<option value="1" {if value="$data['edu'] eq '初中'"} selected="selected" {/if}>初中</option>
+									<option value="2" {if value="$data['edu'] eq '高中'"} selected="selected" {/if}>高中</option>
+									<option value="3" {if value="$data['edu'] eq '中技'"} selected="selected" {/if}>中技</option>
+									<option value="4" {if value="$data['edu'] eq '中专'"} selected="selected" {/if}>中专</option>
+									<option value="5" {if value="$data['edu'] eq '大专'"} selected="selected" {/if}>大专</option>
+									<option value="6" {if value="$data['edu'] eq '本科'"} selected="selected" {/if}>本科</option>
+									<option value="7" {if value="$data['edu'] eq '硕士'"} selected="selected" {/if}>硕士</option>
+									<option value="8" {if value="$data['edu'] eq '博士'"} selected="selected" {/if}>博士</option>
+									<option value="9" {if value="$data['edu'] eq '博后'"} selected="selected" {/if}>博后</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+
+					<input type="submit" value="保存并增加" class="make1_submit">
+					{if value="!empty($eduData)"}
+					<a href="" class="make1_submit make_back">跳过这一步</a>
+					{/if}
+					<a href="" class="make1_submit make_back">返回上一步</a>
+					<input type="hidden" name="reid" value="{$hd.get.reid}">
+					<input type="hidden" name="reid4" value="{$hd.get.reid4}">
+				</form>
+			</div>
+			<!-- 简历填写内容结束 -->
+			{load file="__TPL__/Common/right.html"}
+		</div>
+		<!-- 右边盒子结束 -->
+	</div>
+	<!-- 内容大盒子结束 -->
+	<!-- 页脚开始 -->
+	<div class="footer">
+		<!-- 欢迎加入php群开始 -->
+		<div class="wec">
+			 欢迎加入PHP交流群 
+			 410004417
+			  网站备案：<a href="" class="yue">京ICP备*******号-* </a>
+			
+			  <a href="">
+			  	<img src="__PUBLIC__/images/pic.gif" alt="" />
+			  </a>
+		</div>
+		<!-- 欢迎加入php群结束 -->
+		<!-- 温馨提示开始 -->
+		<div class="rem">
+			温馨提示：招聘单位无权收取任何费用，请求职者加强自我保护意，按照相关劳动法规保护自身权益，警惕虚假招聘，避免上当受骗
+			<br />
+			Copyright @ 2011-2015  houdunwang.com  All Right Reserved   本网站部分内容只转载原作的部分内容，若有异议，请与本站负责人联系，我们将予以改正！ 
+		</div>
+		<!-- 温馨提示结束 -->
+	</div>
+	<!-- 页脚结束 -->
+</body>
+</html>

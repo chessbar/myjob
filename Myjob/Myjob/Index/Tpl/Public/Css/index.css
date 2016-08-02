@@ -1,0 +1,553 @@
+
+a{
+	color: #407DD3;
+}
+/*网站信息盒子开始*/
+.web_info{
+	position: relative;
+	width:958px;
+	height:36px;
+	margin:0 auto;
+	border-right:1px solid #DFDFDF;
+	border-left:1px solid #DFDFDF;
+	border-bottom:1px solid #DFDFDF;
+	background:url(../images/43.gif) 0 -261px repeat-x;
+}
+.web_info .count_info{
+	float: left;
+	width:668px;
+	margin-top: 10px;
+	color:#666;
+	font-family:Arial,​Helvetica,​sans-serif;
+	font-size:12px;
+	padding-left: 40px;
+	background:url(../images/43.gif) 15px -372px no-repeat;
+}
+.web_info .count_info span{
+	margin-right: 10px;
+}
+/*网站信息盒子结束*/
+.web_info .dynameic{
+	position: absolute;
+	top:6px;
+	right:0px;
+	width:220px;
+	height:20px;
+	padding-left: 20px;
+	overflow: hidden;
+	background: url(../images/43.gif) 0 -331px no-repeat;
+}
+.web_info .dynameic ul li{
+	height:20px;
+	line-height: 21.6px;
+	color:#666666;
+	font-size: 12px;
+}
+.web_info .dynameic ul li a{
+	font-size: 12px;
+	color:#0066CC;
+}
+
+/*注册登录大盒子开始*/
+.login_box{
+	width:960px;
+	height:280px;
+	margin:8px auto;
+
+}
+.login_box div.left{
+	width:260px;
+	float: left;
+	/*border:1px solid blue;*/
+}
+.login_box div.left .login a.one{
+	display: block;
+	float: left;
+	width:122px;
+	height:41px;
+	color:#666666;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 41px;
+	text-align: center;
+	padding-right: 5px;
+	margin-bottom: 6px;
+	background:url(../images/52.gif) 0 -42px no-repeat;
+}
+.login_box div.left .login{
+	overflow: hidden;
+}
+.login_box div.left .login .login_div .member_in{
+	margin-left:12px;
+}
+
+.login_box div.left .login .login_div{
+	border: 1px solid #FFCC99;
+	width: 248px;
+	height: 40px;
+	margin-bottom: 3px;
+	line-height:40px;
+	text-align: center;
+}
+.login_box div.left .login .login_div a{
+	color: #4D4D4D;
+}
+.login_box div.left .login .login_div a:hover{
+	color: #009900;
+	text-decoration: underline;
+}
+.login_box div.left .login .login_div span{
+	margin-left: 18px;
+	margin-right: 28px;
+	height: 2px;
+	color: #ddd;
+	font-size: 12px;
+}
+.login_box div.left .login .login_div .loging_out{
+	margin-right: 25px;
+}
+
+.login_box div.left .login .one:hover{
+	background: url(../images/52.gif) 0 -126px no-repeat;
+}
+.login_box div.left .login a.two{
+	display: block;
+	float: left;
+	width:122px;
+	height:41px;
+	color:#E55600;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 41px;
+	text-align: center;
+	/*border:1px solid red;*/
+	padding-right: 6px;
+	background:url(../images/52.gif) 0 0 no-repeat;
+	/*overflow: hidden;*/
+}
+.login_box div.left .login .two:hover{
+	background: url(../images/52.gif) 0 -84px no-repeat; 
+}
+.login_box div.left .tab_box{
+	float: left;
+	width:248px;
+	height:180px;
+	margin-top: 6px;
+	border:1px solid #E4E4E4;
+	overflow: hidden;
+}
+.login_box div.left .tab_box .tab_title{
+	height:30px;
+	background: url(../images/52.gif) 0 -193px repeat-x;
+	overflow: hidden;
+}
+.login_box div.left .tab_box .tab_title a{
+	display: block;
+	float: left;
+	display: block;
+	width:80px;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	color:#666;
+	border-left:1px solid #E4E4E4;
+	overflow: hidden;
+}
+.login_box div.left .tab_box .tab_title a:hover{
+	background: #FFFFFF;
+}
+.login_box div.left .tab_box .tab_title a.one{
+	width:83px;
+	border:none;
+}
+.login_box div.left .tab_box .tab_title a.three{
+	width:82px;
+}
+
+.login_box div.left .tab_box ul{
+	margin-top: 5px;
+}
+.login_box div.left .tab_box ul li{
+	padding-left: 18px;
+	background: url(../images/01.gif) 10px -15px no-repeat;
+	margin-top: 9px;
+}
+.login_box div.left .tab_box ul li span.one{
+	color: #2D9900;
+}
+.login_box div.left .tab_box ul li a{
+	color:#407DD3;
+}
+.login_box div.left .tab_box ul li a:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+/*中间大盒子开始*/
+.login_box div.center{
+	float: left;
+	width:448px;
+}
+.login_box div.center .rotation_box{
+	position: relative;
+	width:442px;
+	border:1px solid #E4E4E4;
+}
+.login_box div.center img{
+	width: 442px;
+	height: 256px;
+}
+/*中间大盒子结束*/
+/*右边紧急招聘大盒子开始*/
+.newresume{
+	float: left;
+	width:248px;
+	height:274px;
+	border:1px solid #E4E4E4;
+	overflow: hidden;
+
+}
+.newresume .tit {
+    background: url("../images/52.gif") repeat-x scroll 0 -239px rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #E4E4E4;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding-left: 15px;
+    width: 248px;
+}
+.newresume ul li{
+	background: url("../images/01.gif") no-repeat scroll 10px -15px rgba(0, 0, 0, 0);
+    margin-top: 9px;
+    padding-left: 18px;
+}
+/*右边紧急招聘大盒子结束*/
+/*注册登录大盒子结束*/
+
+/*广告大盒子开始*/
+.ad_box{
+	width:972px;
+	height:85px;
+	margin:0 auto;
+}
+.ad_box .list{
+	float: left;
+	width:155px;
+	margin-top: 8px;
+	padding-left: 6px;
+}
+.ad_box .list div.imgbox{
+	width:153px;
+	height:50px;
+	border:1px solid #E4E4E4;
+}
+.ad_box .list div.imgbox a img{
+	width:153px;
+	height:48px;
+}
+.ad_box .list div.link{
+	width:153px;
+	height:23px;
+	text-align: center;
+	line-height: 23px;
+	border:1px solid #E4E4E4;
+	border-top:none;
+	background: #F8F8F8;
+}
+.ad_box .list div.link a{
+	font-size: 12px;
+	color:#4D4D4D;
+}
+.ad_box .list div.link a:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+/*广告大盒子结束*/
+
+/*推荐职位大盒子开始*/
+.rec{
+	width:960px;
+	height:387px;
+	margin: 8px auto;
+}
+/*左边大盒子开始*/
+.rec .left{
+	float: left;
+	width:710px;
+}
+.rec .left .left_box{
+	width:700px;
+	height:385px;
+	border:1px solid #E4E4E4;
+}
+.rec .left .left_box .title{
+	height:30px;
+	line-height: 30px;
+	margin-bottom: 8px;
+	border-bottom: 1px solid #E4E4E4;
+	background: url(../images/52.gif) 0 -239px repeat-x;
+}
+.rec .left .left_box .title span{
+	float: left;
+	padding-left: 10px;
+	color:#666;
+	font-size: 14px;
+	font-weight: 700;
+}
+.rec .left .left_box .title a{
+	float: right;
+	padding-right: 15px;
+	font-size: 12px;
+	color:#4D4D4D;
+}
+.rec .left .left_box .title a:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+div.list_public{
+	float: left;
+	width:198px;
+	height:40px;
+	padding-left: 10px;
+	font-size: 12px;
+	line-height: 21.6px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+div.list_public a{
+	color:#0066CC;
+	font-size: 12px;
+}
+div.list_public span.num{
+	color:#666;
+}
+div.list_public span.one{
+	color:#009900;
+
+}
+div.list_public span a{
+	color:#4D4D4D;
+}
+/*左边大盒子结束*/
+/*右边大盒子*/
+.rec .right{
+	float: left;
+	width:248px;
+	height:385px;
+	border:1px solid #E4E4E4;
+}
+.rec .right .title{
+	height:30px;
+	margin-bottom: 9px;
+	border-bottom:1px solid #E4E4E4;
+	line-height: 30px;
+}
+.rec .right .title span{
+	float: left;
+	color:#4D4D4D;
+	font-size: 14px;
+	font-family:Arial,​Helvetica,​sans-serif;
+	font-weight: 700;
+	padding-left: 10px;
+}
+.rec .right .title a{
+	float: right;
+	padding-right: 13px;
+	color:#4D4D4D;
+}
+.rec .right .title a:hover{
+	color:#009900;
+	text-decoration: underline;
+}
+.rec .right .con{
+	height:340px;
+	overflow: hidden;
+}
+.rec .right .con ul li{
+	height:24px;
+	margin-left: 8px;
+	padding-left: 7px;
+	background: url(../images/01.gif) 0 -29px no-repeat;
+	overflow: hidden;
+}
+.rec .right .con ul li a{
+	color:#0066CC;
+}
+.rec .right .con ul li a:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+.rec .right .con ul li span{
+	font-size: 12px;
+	color:#666;
+	margin-left: 6px;
+}
+/*右边大盒子结束*/
+/*推荐职位大盒子结束*/
+
+
+/*最新php职位开始*/
+.new_php{
+	width:958px;
+	height:410px;
+	border:1px solid #E4E4E4;
+	margin:8px auto;
+}
+.new_php .title{
+	height:30px;
+	margin-bottom: 6px;
+	border-bottom: 1px solid #E4E4E4;
+	line-height: 30px;
+	background: url(../images/52.gif) 0 -239px repeat-x;
+}
+.new_php .title a.left{
+	float: left;
+	font-size: 14px;
+	font-weight: 700;
+	color:#4D4D4D;
+	padding-left: 10px;
+}
+.new_php .title .left:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+.new_php .title a.right{
+	float: right;
+	padding-right: 18px;
+	color:#4D4D4D;
+}
+.new_php .title a.right:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+.new_php .list_public{
+	margin-top:5px;
+	padding-right: 12px;
+}
+/*最新php职位结束*/
+
+/*php职业指导大盒子开始*/
+.pro{
+	width:960px;
+	height:475px;
+	margin:8px auto;
+}
+.box{
+	float: left;
+	width:312px;
+	margin-right: 8px;
+	border:1px solid #E4E4E4;
+	overflow: hidden;
+
+}
+.box .title{
+	width:310px;
+	height:30px;
+	border-bottom:1px solid  #E4E4E4;
+	line-height: 30px;
+	background: url(../images/52.gif) 0 -239px repeat-x;
+}
+
+.last{
+	width:314px;
+	margin-right: 0px;
+}
+.last .title{
+	width:314px;
+	height:30px;
+	border-bottom:1px solid  #E4E4E4;
+	line-height: 30px;
+	background: url(../images/52.gif) 0 -239px repeat-x;
+}
+
+.box .title .left{
+	float: left;
+	padding-left: 10px;
+	color:#4D4D4D;
+	font-size: 14px;
+	font-weight: 700;
+}
+.box .title .left:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+.box .title .right{
+	float: right;
+	color:#4D4D4D;
+	font-size: 12px;
+	padding-right: 20px;
+}
+.box .title .right:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+.box  .txt{
+	padding:10px;
+	overflow: hidden;
+}
+.box  .txt ul li{
+	padding-left: 8px;
+	height:23px;
+	width:260px;
+	overflow: hidden;
+	background: url(../images/01.gif) 0 -13px no-repeat;
+}
+.box  .txt ul li a{
+	color:#4D4D4D;
+	line-height: 24px;
+}
+.pro .box  .txt ul li a:hover{
+	color:#009900;
+	text-decoration: underline;
+}
+
+.box  .txt ul li a.red{
+	color:#FF0000;
+}
+.box  .txt ul li a.red2{
+	color:#FF0000;
+	font-weight: 700;
+}
+.box  .txt ul li a.blue{
+	color:#000099;
+}
+.box  .txt ul li a.green{
+	color:#669900;
+}
+/*php职业指导大盒子结束*/
+
+/*php技巧大盒子开始*/
+.skill{
+	width:960px;
+	height:auto;
+	overflow: hidden;
+	margin:8px auto;
+}
+.skill .txt li a.green{
+	color:#669900;
+}
+.skill .txt li a:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+.skill .link strong{
+	color:#666;
+	font-size: 12px;
+}
+.skill .link a{
+	height:23px;
+	line-height: 20px;
+	color:#4D4D4D;
+	font-family: 	Arial,​Helvetica,​sans-serif;
+}
+.skill .link a:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+.skill .link a.last{
+	color:#0066CC;
+}
+.skill .link .last:hover{
+	text-decoration: underline;
+}
+/*php技巧大盒子结束*/
+

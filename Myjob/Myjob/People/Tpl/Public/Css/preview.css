@@ -1,0 +1,168 @@
+
+.people_right{
+	float: left;
+	width:785px;
+	border:1px solid #C9D9E7;
+	margin-bottom: 30px;
+}
+
+.people_right .right_title{
+	height:28px;
+	border-bottom: 1px solid #C9D9E7;
+	background: url(../Images/018.gif) repeat-x;
+}
+.people_right .right_title h1{
+	font-size: 14px;
+	font-weight: 700;
+	color:#376BA6;
+	line-height: 28px;
+	padding-left: 15px;
+}
+.people_right .right_title h1 span{
+	font-size: 14px;
+	color:#FF6600;
+}
+.people_right .set_con{
+	overflow: hidden;
+	border-bottom: 1px solid #C9D9E7;
+}
+.people_right .tit{
+	position: relative;
+	height:35px;
+	line-height: 35px;
+	color:#0066CC;
+	font-size: 12px;
+	padding-left: 15px;
+	background: #F5FAFC;
+	border-bottom:1px solid #C9D9E7;
+}
+.people_right .tit a.edit_sub{
+	position: absolute;
+	right:20px;
+	top:8px;
+	display: block;
+}
+.people_right .tit a.edit_sub img{
+	width:63px;
+	height:21px;
+}
+.people_right .set_con ul li{
+	height:30px;
+	float: left;
+	width:370px;
+	font-size: 12px;
+	color:#333333;
+	line-height: 30px;
+}
+.people_right .set_con ul li span{
+	color: #888;
+}
+.people_right .set_con ul li a{
+	font-size: 12px;
+	color:#0066CC;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.people_right .set_con ul li a:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+.people_right .set_con ul li.list{
+	padding-left: 180px;
+	width:200px;
+}
+
+/*基本信息盒子开始*/
+.people_right .info{
+	position: relative;
+	border-bottom:1px solid #C9D9E7;
+}
+.people_right .info ul {
+	width:600px;
+	overflow:auto;
+}
+.people_right .info ul li{
+	height: 30px;
+	float:left;
+	width:300px;
+	line-height: 30px;
+	font-size: 12px;
+	color:#333333;
+
+}
+.people_right .info div.pic{
+	position: absolute;
+	top:10px;
+	right:30px;
+	padding:1px;
+	border:1px solid #CCCCCC;
+}
+.people_right .info div.pic img{
+	width:120px;
+	height:150px;
+}
+.people_right .info a.edit_pic{
+	position: absolute;
+	right:65px;
+	bottom: 20px;
+	color:#0066CC;
+	font-size: 12px;
+}
+.people_right .info a.edit_pic:hover{
+	color:#009900;
+	text-decoration: underline;
+}
+/*基本信息盒子结束*/
+/*求职意向盒子开始*/
+.people_right .purpose{
+	position: relative;
+	border-bottom:1px solid #C9D9E7;
+}
+.people_right ul{
+	margin-left: 15px;
+}
+.people_right ul li{
+	font-size: 12px;
+	color:#333333;
+	height:26px;
+	line-height: 26px;
+}
+/*求职意向盒子结束*/
+/*技能特长盒子开始*/
+.people_right .skill{
+	position: relative;
+	border-bottom:1px solid #C9D9E7;
+}
+.people_right .skill div{
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*技能特长盒子结束*/
+/*教育经历开始*/
+.people_right table{
+	width:100%;
+}
+.people_right table tr td{
+	width:180px;
+	text-align: center;
+	height:30px;
+	border-bottom: 1px dashed #CCCCCC;
+	color:#003399;
+	font-size: 12px;
+}
+.people_right table tr.no_bor td{
+	border:none;
+	color:#333333;
+}
+.people_right table tr.no_bor td a{
+	font-size: 12px;
+	color:#0066CC;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.people_right table tr.no_bor td a:hover{
+	color:#009900;
+}
+/*教育经历结束*/

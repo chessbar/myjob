@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>后盾招聘创建简历第一步-教学项目</title>
+<link rel="stylesheet" type="text/css" href="__STATIC__/Css/style.css">
+<link rel="stylesheet" type="text/css" href="__STATIC__/Css/common.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/member-common-left.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/preview.css">
+	<link rel="stylesheet" href="__PUBLIC__/Css/found.css" />
+</head>
+<body>
+
+
+
+{load file="__STATIC__/Tpl/header.html"}
+{load file="__STATIC__/Tpl/member_menu.html"}
+	<!-- 内容大盒子开始 -->
+	<div class="content">
+		<!-- 左边盒子 -->
+
+		{load file="__STATIC__/Tpl/member_left.html"}
+		<!-- 左边盒子结束 -->
+		<!-- 右边大盒子开始 -->	
+		<div class="people_right">
+			<div class="right_title">
+				<h1>
+					预览简历 - 
+					<span></span>
+				</h1>
+			</div>
+			<div class="tit">基本设置</div>
+			<div class="set_con">
+				<ul>
+					<li>
+						简历名称：{$data.resumename}
+						<a href="{|U:'private_set',array('reid'=>$_GET['reid'])}">[设置隐私]</a>
+					</li>
+					<li class="list">
+						简历公开：{$data.publicstate}
+						<a href="">[修改]</a>   
+					</li>
+					<li>
+						姓名：{$data.realname}
+					</li>
+					<li class="list">
+						简历审核状态：{$data.verifystate}							
+					</li>
+					<li>
+					 简历完整度：{$data.propress}% 	
+					 <span>(完整指数小于60%的简历系统将视为无效简历)</span>		  
+					</li>
+					<li class="list">
+						照片审核状态：{$data.facevalidate}
+					</li>
+					<li>
+					 有效日期：{$data.totime}
+						<a href="">[延长]</a>
+					</li>
+						<li class="list">
+							照片公开状态：{$data.facepublic} <a href="">[设置]</a>
+						</li>
+					<li>
+					创建时间：{$data.sendtime|date:'Y-m-d H:i:s',@@}  			  
+					</li>
+					<li class="list">
+					刷新时间：{$data.freshtime|date:'Y-m-d H:i:s',@@}  
+					 <a href="">[刷新]</a>
+					</li>
+					<li>
+					 	浏览次数：{$data.click}次
+					</li>
+				</ul>
+			</div>
+			<div class="tit">
+				基本信息
+				<a href="" class="edit_sub">
+					<img src="__PUBLIC__/Images/33.gif" alt="">
+				</a>
+			</div>
+			<!-- 基本信息盒子开始 -->
+			<div class="info">
+				<ul>
+					<li>姓名：{$data.realname}</li>
+					<li>性别：{$data.sex}</li>
+					<li>年龄：{$data.age}岁</li>
+					<li>身高：{$data.height}CM</li>
+					<li>学历：{$data.realname}</li>
+					<li>婚姻状况：{$data.marrystate}</li>
+					<li>工作经验：{$data.workyear}</li>
+					<li>户口所在地：{$data.household}</li>
+					<li>联系电话：{$data.phonenumber}</li>
+					<li>电子邮箱：{$data.mail}</li>
+					<li>通讯 Q Q：{$data.qq}</li>
+					<li>通讯地址：{$data.address}</li>
+					<li>个人主页/博客：{$data.homepage}</li>
+				</ul>
+
+				<div class="pic">
+				{if value="$data['face']"}
+				<img src="__ROOT__/{$data.face}" alt="">
+				{else/}
+				<img src="__PUBLIC__/Images/no_photo.gif" alt="">
+				{/if}
+				</div>
+
+				<a href="{|U:'Resume/make7',array('reid'=>$_GET['reid'])}" class="edit_pic">修改照片</a>
+			</div>
+			<!-- 基本信息盒子结束 -->
+			<!-- 求职意向盒子开始 -->
+			<div class="tit">
+				求职意向
+				<a href="" class="edit_sub">
+					<img src="./Images/33.gif" alt="">
+				</a>
+			</div>
+			<div class="purpose">
+				<ul>
+					<li>最近工作过的职位：{$data.resume2Data.workplace}</li>
+					<li>期望岗位性质：{$data.resume2Data.quality}</li>
+					<li>期望工作地：{$data.resume2Data.total_citynme}</li>
+					<li>期望月薪：{$data.resume2Data.salary}</li>
+					<li>期望从事的岗位：{$data.resume2Data.posname}</li>
+				</ul>
+				<!-- <ul>
+					<li>您没有填写求职意向。</li>
+				</ul> -->
+
+			</div>
+			<!-- 求职意向盒子结束 -->
+			<!-- 技能特长盒子开始 -->
+			<div class="tit">
+				技能特长
+				<a href="" class="edit_sub">
+					<img src="./Images/33.gif" alt="">
+				</a>
+			</div>
+			<div class="skill">
+				<ul>
+					<div>
+						{$data.resume3Data}
+					</div>
+				</ul>
+				<!-- <ul>
+					<li>您没有填写技能特长。</li>
+				</ul> -->
+			</div>
+			<!-- 技能特长盒子结束 -->
+			<!-- 教育经历开始 -->
+			<div class="tit">
+				教育经历
+				<a href="" class="edit_sub">
+					<img src="./Images/33.gif" alt="">
+				</a>
+			</div>
+			{if value="$data['resume4Data']"}
+			<table  cellpadding="5" cellspacing="1">
+			<tr>
+				<td class="time">起止年月</td>
+				<td>学校名称</td>
+				<td>专业名称</td>
+				<td>学历</td>
+				<td>编辑</td>
+			</tr>
+			{foreach from="$data['resume4Data']" value="$v"}
+			<tr class="no_bor">
+				<td>{$v.starttime}至{$v.endtime}</td>
+				<td>{$v.schoolname}</td>
+				<td>{$v.skillname}</td>
+				<td>{$v.edu}</td>
+				<td>
+					<a href="{|U:'Resume/make4_update',array('reid'=>$data['rid'],'reid4'=>$v['rid4'])}" >修改</a>
+					  |  
+					<a href="{|U:'Resume/make4_del',array('reid'=>$data['rid'],'reid4'=>$v['rid4'])}">删除</a>
+				</td>
+			</tr>
+			{/foreach}
+			</table>
+			{else/}
+			<ul>
+				<li>您没有填写技能特长。</li>
+			</ul>
+			{/if}
+			<!-- 教育经历结束 -->
+			<!-- 工作经历开始 -->
+			<div class="tit" style="border-top:1px solid #C9D9E7">
+				工作经历
+				<a href="" class="edit_sub">
+					<img src="./Images/33.gif" alt="">
+				</a>
+			</div>
+			{if value="$data['resume5Data']"}
+				<table  cellpadding="5" cellspacing="1">
+					<tr>
+						<td class="time">起止年月</td>
+						<td>公司名称</td>
+						<td>职位名称</td>
+						<td>编辑</td>
+					</tr>
+					{foreach from="$data['resume5Data']" value="$v"}
+					<tr class="no_bor">
+						<td>{$v.starttime}至{$v.endtime}</td>
+						<td>{$v.companyname}</td>
+						<td>{$v.job}</td>
+						<td>
+							<a href="{|U:'Resume/make5_update',array('reid'=>$data['rid'],'reid5'=>$v['rid5'])}" >修改</a>
+							  |  
+							<a href="{|U:'Resume/make5_del',array('reid'=>$data['rid'],'reid5'=>$v['rid5'])}">删除</a>
+						</td>
+					</tr>
+					{/foreach}
+				</table>
+				{else/}
+				<ul>
+					<li>您没有填写工作经历。</li>
+				</ul>
+				{/if}
+			<!-- 工作经历结束 -->
+			<!-- 培训经历开始 -->
+			<div class="tit" style="border-top:1px solid #C9D9E7">
+				培训经历
+				<a href="{|U:'People/Resume/make6', array('reid'=>$data['reid'])}" class="edit_sub">
+					<img src="./Images/33.gif" alt="">
+				</a>
+			</div>
+				{if value="$data['resume6Data']"}
+				<table  cellpadding="5" cellspacing="1">
+					<tr>
+						<td class="time">起止年月</td>
+						<td>机构名称</td>
+						<td>培训课程</td>
+						<td>编辑</td>
+					</tr>
+
+						{foreach from="$data['resume6Data']" value="$v"}
+					<tr class="no_bor">
+						<td>{$v.starttime}至{$v.endtime}</td>
+						<td>{$v.organ}</td>
+						<td>{$v.classname}</td>
+						<td>
+							<a href="{|U:'Resume/make6_update',array('reid'=>$data['rid'],'reid6'=>$v['rid6'])}" >修改</a>
+							  |  
+							<a href="{|U:'Resume/make6_del',array('reid'=>$data['rid'],'reid6'=>$v['rid6'])}">删除</a>
+						</td>
+					</tr>
+					{/foreach}
+
+				</table>
+				{else/}
+				<ul>
+					<li>您没有填写培训经历。</li>
+				</ul>
+				{/if}
+			<!-- 培训经历结束 -->
+		</div>
+		<!-- 右边大盒子结束 -->	
+	</div>
+	<!-- 内容大盒子结束 -->
+	<!-- 页脚开始 -->
+	<div class="footer">
+		<!-- 欢迎加入php群开始 -->
+		<div class="wec">
+			 欢迎加入PHP交流群 
+			 410004417
+			  网站备案：<a href="" class="yue">京ICP备*******号-* </a>
+			
+			  <a href="">
+			  	<img src="__PUBLIC__/images/pic.gif" alt="" />
+			  </a>
+		</div>
+		<!-- 欢迎加入php群结束 -->
+		<!-- 温馨提示开始 -->
+		<div class="rem">
+			温馨提示：招聘单位无权收取任何费用，请求职者加强自我保护意，按照相关劳动法规保护自身权益，警惕虚假招聘，避免上当受骗
+			<br />
+			Copyright @ 2011-2015  houdunwang.com  All Right Reserved   本网站部分内容只转载原作的部分内容，若有异议，请与本站负责人联系，我们将予以改正！ 
+		</div>
+		<!-- 温馨提示结束 -->
+	</div>
+	<!-- 页脚结束 -->
+</body>
+</html>

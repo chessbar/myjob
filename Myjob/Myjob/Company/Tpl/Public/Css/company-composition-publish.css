@@ -1,0 +1,108 @@
+
+table{
+	width:100%;
+	margin-top: 10px;
+	border-collapse: collapse;
+
+}
+table tr td{
+	font-size: 12px;
+	color:#333333;
+	height:35px;
+	border: none;
+}
+table tr td.name{
+	width:100px;
+	height:35px;
+	font-size: 12px;
+	padding-right: 10px;
+	text-align: right;
+}
+table tr td.name span{
+	color:#FF3300;
+	font-weight: bold;
+	
+}
+table tr td.area select.sel{
+	width:99px;
+}
+.w_200{
+	width:200px;
+}
+.w_350{
+	width:350px;
+}
+table tr td input.user_input{
+	/*height:16px;*/
+	padding:3px;
+	border:1px solid #7F9DB9;
+	font-size: 12px;
+	color:#000000;
+	vertical-align: middle;
+	line-height: 14.4px;
+}
+table tr td label{
+	font-size: 12px;
+	color:#333333;
+	margin-right: 20px;
+}
+table tr td label input{
+	font-size: 11px;
+	color:#000000;
+}
+table tr td select.sel{
+	width:200px;
+	height:20px;
+}
+table tr td select.sel_little{
+	width:99px;
+	height:20px;
+}
+
+table tr td textarea.user_input_textarea{
+	width:450px;
+	height:150px;
+	font-size: 12px;
+	color:#000000;
+	line-height: 21.6px;
+}
+table tr div.tit{
+	height:30px;
+	line-height: 30px;
+	font-size: 12px;
+	color:#333333;
+
+}
+table tr div.tit span.check{
+	color:#0033CC;
+	cursor:pointer;
+	font-size: 12px;
+}
+table tr.cp td.exa{
+	vertical-align: top;
+	text-align: right;
+	font-size: 12px;
+	padding-right: 10px;
+}
+table tr.cp td.exa strong{
+	color:#FF0000;
+}
+table tr.cp td{
+	font-size: 12px;
+	color:#333333;
+}
+table tr.cp td strong{
+	font-size: 12px;
+	color:#333333;
+}
+
+table tr.ema{
+	background: #EEEEEE;
+	height:40px;
+	padding-left: 0px;
+}
+
+table tr.ema td label{
+	margin-right: 8px;
+
+}

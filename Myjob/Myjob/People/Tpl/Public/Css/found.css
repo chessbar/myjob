@@ -1,0 +1,274 @@
+
+.right_box .one_box{
+	position: relative;
+	height:70px;
+	width: 675px;
+	background: #F5FAFC;
+	border-bottom: 1px dashed #CCCCCC;
+}
+.right_box .one_box span.one{
+	position: absolute;
+	left:30px;
+	top:18px;
+	font-size: 14px;
+	color:#003399;
+}
+.right_box .one_box span.two{
+	position: absolute;
+	left:170px;
+	top:20px;
+	color:#999999;
+	font-size: 12px;
+}
+.right_box .one_box span.yes{
+	position: absolute;
+	left:30px;
+	top:45px;
+	color:#f00;
+	font-size: 12px;
+}
+
+.right_box .one_box span.two strong{
+	color:#FF0000;
+	font-size: 12px;
+}
+.right_box table{
+	font-size: 12px;
+	color: #333;
+	width: 636px;
+	border-collapse:collapse;
+}
+.one_con table input{
+	border: 1px solid #7F9DB9;
+	width: 200px;
+	line-height: 16px;
+	padding: 3px;
+}
+.one_con table tr strong{
+	color: #f00;
+}
+.right_box table tr td{
+	height: 35px;
+}
+.one_con table input.resume_radio{
+	width: 22px;
+	vertical-align: middle;
+	border:none;
+}
+.right_box table td.one_con_left{
+	text-align: right;
+	width: 130px;
+}
+.resume_center{
+	text-align: center;
+}
+.show_edu a{
+	color: #3473D0;
+}
+.one_con .make1_submit{
+	display: block;
+	width: 117px;
+	height: 28px;
+	margin-top: 40px;
+	margin-left: 120px;
+	background: url('../images/27.gif') no-repeat;
+	overflow-y: hidden;
+	line-height: 28px;
+	cursor: pointer;
+	text-align: center;
+	color: #000;
+	float: left;
+	font-size: 12px;
+	font-weight: 400;
+}
+.one_con .make1_submit_bg{
+
+	background: url('../images/27.gif') no-repeat 0 -28px;
+
+}
+.one_con .make_back{
+	margin-left: 10px;
+}
+/*右边盒子介绍*/
+.right_box{
+	min-height: 800px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+.right_box .state_box{
+	position: absolute;
+	top:29px;
+	right:0px;
+	width:148px;
+	height:900px;
+	border-left:1px solid #C9D9E7;
+	background: #F0F8FB;
+	text-align: center;
+}
+.right_box .state_box ul li{
+	width:118px;
+	height:28px;
+	font-size: 12px;
+	margin-left: 14px;	
+	text-align: center;
+	line-height: 28px;
+	margin-top: 10px;
+	background: url(../images/48.png) no-repeat 20px 10px;
+}
+.right_box .state_box ul li.one{
+	position: relative;
+	text-align: left;
+	text-indent: 88px;
+	color: #006600;
+	border:1px solid #C9D9E7;
+	background: url(../images/46.gif) repeat-x;
+}
+.progress{
+	position: absolute;
+	top:9px;
+	left:12px;
+	width:70px;
+	height:8px;
+	border:1px solid #009900;
+	line-height: 8px;
+}
+.right_box .state_box ul li.none{
+	background: none;
+}
+.right_box .state_box ul li.two{
+	text-indent: 0px;
+	text-align: center;
+}
+.right_box .state_box ul li.two a{
+	color:#006600;
+}
+.right_box .state_box ul li.two a:hover{
+	text-decoration: underline;
+}
+.right_box .state_box ul li.on{
+	position: relative;
+	left:-15px;
+	width:134px;
+	height:32px;
+	margin-top: 15px;
+	border-top:1px solid #C9D9E7;
+	border-right:1px solid #C9D9E7;
+	border-bottom:1px solid #C9D9E7;
+	background: url(../images/50.png) no-repeat 32px 10px #fff;
+	padding-left:7px;
+
+}
+.right_box .state_box ul .fullstatus{
+	position: relative;
+	left:-7px;
+	width:134px;
+	height:32px;
+	background: url(../images/49.png) no-repeat 25px 10px;
+}
+
+.right_box .state_box ul li a{
+	color:#464646;
+}
+
+.select_box{
+	width: 130px;
+	height: 20px;
+}
+.select_box_little{
+	width: 80px;
+	height: 20px;
+}
+.resume_textarea{
+	width: 453px;
+	height: 107px;
+	margin-top: 20px;
+	font-size: 12px;
+	padding: 5px;
+}
+
+.resume_example a{
+	margin-right: 10px;
+	margin-bottom: -20px;
+	color: #0066CC;
+}
+.resume_left_example{
+	background: #F5FAFC;
+	color:#FF0000;
+	border-top:1px #ACC9D0 dashed;
+}
+.resume_right_example{
+	background: #F5FAFC;
+	border-top:1px #ACC9D0 dashed;
+	line-height: 20px;
+}
+.resume_tr{
+	height: 90px;
+	display: none;
+	border-bottom: 1px #ACC9D0 dashed;
+}
+
+.resume_edu{
+	height: 32px;
+	background: #E0F0F5;
+	color: #376BA6;
+}
+
+.resume_textarea{
+	width: 350px;
+	height: 90px;
+}
+.one_no_thing{
+	color: green;
+}
+
+.one_con table input.over{
+	width: 50px;
+}
+
+table tr.pos_tr td select{
+	width:100px;
+}
+/*增加一项*/
+.one_con table tr td a.add{
+	color:green;
+}
+.make7_pic td{
+	text-align: center;
+
+}
+.make7_pic td div{
+	width: 150px;
+	height: 150px;
+	padding: 2px;
+	border: 1px solid #B9CBD9;
+	margin-left: 130px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.make7_pic td div img{
+	width: 150px;
+	height: 150px;
+}
+.one_con table .cate_change div{
+	margin-top: 10px;
+}
+.one_con table .cate_change input{
+	width: 20px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.one_con table .cate_change h2{
+	font-weight: 400;
+	border: 1px solid #7F9DB9;
+	background: #F0F8FB;
+	margin-top: 7px;
+	min-height: 20px;
+	line-height: 20px;
+	width: 430px;
+	overflow: hidden;
+}
+.one_con table .cate_change p{
+	float: left;
+	width: 130px;
+
+}

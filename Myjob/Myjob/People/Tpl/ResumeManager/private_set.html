@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>后盾招聘创建简历第一步-教学项目</title>
+<link rel="stylesheet" type="text/css" href="__STATIC__/Css/style.css">
+<link rel="stylesheet" type="text/css" href="__STATIC__/Css/common.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/member-common-left.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/private.css">
+{hdjs/}
+<script type="text/javascript">
+		// input按钮鼠标移入改变背景图效果
+		$(function(){
+			// 当鼠标移入时
+			$('td.subs input').mouseover(function(){
+				$(this).addClass('input_bg');
+			})
+			// 当鼠标移出时
+			$('td.subs input').mouseout(function(){
+				$(this).removeClass('input_bg');
+			})
+		})
+	</script>
+</head>
+<body>
+
+
+
+{load file="__STATIC__/Tpl/header.html"}
+{load file="__STATIC__/Tpl/member_menu.html"}
+	<!-- 内容大盒子开始 -->
+	<div class="content">
+		<!-- 左边盒子 -->
+
+		{load file="__STATIC__/Tpl/member_left.html"}
+		<!-- 左边盒子结束 -->
+		<!-- 右边大盒子开始 -->	
+		<div class="right_box">
+			<div class="right_title">
+				<h1>隐私设置</h1>
+			</div>
+		<form action="" method="post">
+			<table cellpadding="0" border="0" cellspacing="0">
+				<tr>
+					<td class="set" colspan="2">
+						<span>设置：</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="open">
+						<strong>简历公开状态</strong>
+					</td>
+				</tr>
+				<tr>
+					<td class="com_open">
+						<label for="">
+							<input type="radio" name="publicstate" value="1">
+							完全公开
+						</label>
+						<span>(企业可以搜索到您的简历)</span>
+						<span class="col">推荐选此项！</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="semi_open">
+						<label for="">
+							<input type="radio" name="publicstate" value="0">
+							半公开
+						</label>
+						<span>(企业搜不到到简历，但是您可以主动给职位投递简历)</span>
+					</td>
+				</tr>
+	
+					<tr>
+						<td class="real_name">
+							<strong>简历中显示照片</strong>
+						</td>
+					</tr>
+					<tr>
+						<td class="show_real">
+							<label for="">
+								<input type="radio" name="facepublic" value="1">
+								  显示照片 <span class="col">推荐选此项！</span>
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td class="show_real bot">
+							<label for="">
+								<input type="radio" name="facepublic" value="0">
+							   不显示照片
+							</label>
+						</td>
+
+				<tr>
+					<td class="subs">
+						<input type="hidden" name="reid" value="{$hd.get.reid}">
+						<input type="submit" value="保存设置">
+						<input type="button" value="预览简历" onclick="">
+						<input type="button" value="返回简历管理" onclick="location.href=''">
+					</td>
+				</tr>
+			</table>
+		</form>
+		</div>
+		<!-- 右边大盒子结束 -->	
+	</div>
+	<!-- 内容大盒子结束 -->
+	<!-- 页脚开始 -->
+	<div class="footer">
+		<!-- 欢迎加入php群开始 -->
+		<div class="wec">
+			 欢迎加入PHP交流群 
+			 410004417
+			  网站备案：<a href="" class="yue">京ICP备*******号-* </a>
+			
+			  <a href="">
+			  	<img src="__PUBLIC__/images/pic.gif" alt="" />
+			  </a>
+		</div>
+		<!-- 欢迎加入php群结束 -->
+		<!-- 温馨提示开始 -->
+		<div class="rem">
+			温馨提示：招聘单位无权收取任何费用，请求职者加强自我保护意，按照相关劳动法规保护自身权益，警惕虚假招聘，避免上当受骗
+			<br />
+			Copyright @ 2011-2015  houdunwang.com  All Right Reserved   本网站部分内容只转载原作的部分内容，若有异议，请与本站负责人联系，我们将予以改正！ 
+		</div>
+		<!-- 温馨提示结束 -->
+	</div>
+	<!-- 页脚结束 -->
+</body>
+</html>

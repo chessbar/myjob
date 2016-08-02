@@ -1,0 +1,134 @@
+
+/*登录大盒子*/
+.logo_bg{
+	width:960px;
+	height:430px;
+	margin:0 auto;
+	background: url(../images/34.gif) no-repeat;
+}
+.logo_bg .logo_box{
+	float: right;
+	width:300px;
+	height:300px;
+	border:1px solid #CCCCCC;
+	background: url(../images/35.jpg) repeat-x #FAFAFA;
+
+}
+.logo_bg .logo_box .logo_boxin{
+	width:276px;
+	padding:10px;
+}
+.logo_bg .logo_box .logo_boxin div.tit{
+	font-size: 14px;
+	font-weight: 700;
+	color:#333333;
+	line-height: 23px;
+	padding-left: 5px;
+}
+.logo_bg .logo_box .logo_boxin  .logo_way{
+	padding-top: 10px;
+	padding-left: 20px;
+	font-size: 12px;
+}
+.logo_bg .logo_box .logo_boxin .logo_way label{
+	padding-right: 5px;
+}
+.logo_bg .logo_box .logo_boxin .logo_name{
+	font-size: 12px;
+	margin-top: 10px;
+	font-family: 	Arial,​Helvetica,​sans-serif;
+	color:#333333;
+	padding-left: 10px;
+}
+.logo_bg .logo_box .logo_boxin .logo_name input{
+	width:165px;
+	height:18px;
+	margin-left: 5px;
+	line-height: 15px;
+	padding:3px;
+	border:1px solid #CCCCCC;
+}
+
+.logo_bg .logo_box .logo_boxin .logo_pwd{
+	font-size: 12px;
+	margin-top: 10px;
+	font-family: 	Arial,​Helvetica,​sans-serif;
+	color:#333333;
+	padding-left: 10px;
+}
+.logo_bg .logo_box .logo_boxin .logo_pwd input{
+	width:165px;
+	height:18px;
+	margin-left: 5px;
+	line-height: 15px;
+	padding:3px;
+	border:1px solid #CCCCCC;
+}
+.logo_bg .logo_box .logo_boxin .logo_auto{
+	font-size: 12px;
+	color:#333333;
+	padding-left: 70px;
+	padding-top: 10px;
+}
+.logo_bg .logo_box .logo_boxin .logo_sub{
+	padding-left: 60px;
+	padding-top: 10px;
+	
+}
+.logo_bg .logo_box .logo_boxin .logo_sub input{
+	width:81px;
+	height:32px;
+	font-family: "SimSun";
+	font-size: 14px;
+	font-weight: 700;
+	color:#ffffff;
+	background: url(../images/36.jpg) no-repeat;
+	cursor:pointer;
+
+}
+.logo_bg .logo_box .logo_boxin .logo_sub a{
+	color:#464646;
+	font-family: 	Arial,​Helvetica,​sans-serif;
+	padding-left: 10px;
+	cursor:pointer;
+}
+.logo_bg .logo_box .logo_boxin p.border{
+	border-top:1px solid #E8E8E8;
+	margin-top:10px;
+}
+.logo_bg .logo_box .logo_boxin ul.reg_box{
+	margin-top: 30px;
+	padding-left: 65px;
+}
+.logo_bg .logo_box .logo_boxin ul.reg_box li{
+	color:#333333;
+	height:25px;
+	font-size: 12px;
+	line-height: 25px;
+}
+.logo_bg .logo_box .logo_boxin ul.reg_box li a{
+	color:#0066CC;
+	font-family: 	Arial,​Helvetica,​sans-serif;
+}
+.logo_bg .logo_box .logo_boxin ul.reg_box li a:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+.get_show{
+	width: 242px;
+	height: 27px;
+	border: 1px solid #f00;
+	background: #FFF3EE;
+	font-size: 12px;
+	line-height: 27px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+/*登录大盒子结束*/
+span.validation{
+	margin-left: 53px;
+	margin-top: 3px;
+	margin-bottom: 1px;
+	font-size: 11px;
+}

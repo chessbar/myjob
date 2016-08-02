@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>后盾招聘登陆-教学项目</title>
+	<!-- 载入公共头部 -->
+<link rel="stylesheet" type="text/css" href="__STATIC__/Css/style.css">
+<link rel="stylesheet" type="text/css" href="__STATIC__/Css/common.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/member-common-left.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/basics.css">
+{hdjs}
+	<script src="__STATIC__/Js/ajax_city.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Js/backTop.js"></script>
+</head>
+<body>
+	<!-- 最顶部灰色条开始 -->
+	{load file="__STATIC__/Tpl/header.html"}
+	<!-- 内容大盒子开始 -->	
+	<div class="content">
+	{load file="__STATIC__/TPL/member_menu.html"}
+	{load file="__STATIC__/TPL/member_left.html"}	
+		<!-- 右边盒子开始 -->
+		<div class="right_box">
+			<div class="title_box">
+				<h1>企业基本信息</h1>
+			</div>
+		 	<form action="" method="post">
+		 		<table class="edit_table">
+		 			<tr>
+		 				<td class="name">
+		 					<span>*</span>
+		 					公司名称：
+		 				</td>
+		 				<td>
+		 					<input class="user_input" type="text" value="{$data.companyname}" name="companyname">
+		 				</td>
+		 			</tr>
+		 			<tr>
+		 				<td class="name">
+		 					<span>*</span>
+		 					企业性质：
+		 				</td>
+		 				<td>
+		 						<select name="nature">
+		 							<option value="0">请选择</option>
+		 							<option value="1" {if value="$data['nature'] eq '民营'"} selected="selected"{/if}>民营</option>
+		 							<option value="2" {if value="$data['nature'] eq '国企'"} selected="selected"{/if}>国企</option>
+		 							<option value="3" {if value="$data['nature'] eq '合资'"} selected="selected"{/if}>合资</option>
+		 							<option value="4" {if value="$data['nature'] eq '外商独资'"} selected="selected"{/if}>外商独资</option>
+		 							<option value="5" {if value="$data['nature'] eq '股份制'"} selected="selected"{/if}>股份制</option>
+		 							<option value="6" {if value="$data['nature'] eq '上市公司'"} selected="selected"{/if}>上市公司</option>
+		 							<option value="7" {if value="$data['nature'] eq '国家机关'"} selected="selected"{/if}>国家机关</option>
+		 							<option value="8" {if value="$data['nature'] eq '事业单位'"} selected="selected"{/if}>事业单位</option>
+		 							<option value="9" {if value="$data['nature'] eq '其他'"} selected="selected"{/if}>其他</option>
+		 						</select>	
+		 				</td>
+		 			</tr>
+					
+		 			<tr>
+		 				<td class="name">
+		 					<span>*</span>
+		 					所在地区：
+		 				</td>
+		 				<td class="area">
+		 					<select class="sel" name="city_one">
+		 						<option value="0">请选择</option>
+		 						{foreach from="$topCity" value="$v"}
+		 							<option value="{$v.cityid}" {if value="$data['first_cityid'] eq $v['cityid']"} selected="selected"{/if}>{$v.cityname}</option>
+		 						{/foreach}
+		 					</select>
+		 					<select class="sel" name="city_second">
+		 						{foreach from='$sonCity' value="$v"}
+		 						<option value="{$v.cityid}" {if value="$data['second_cityid'] eq $v['cityid']"} selected="selected"{/if}>{$v.cityname}</option>
+		 						{/foreach}
+		 					</select>	
+		 				</td>
+		 			</tr>
+		 			<tr>
+		 				<td class="name">
+		 					<span>*</span>
+		 					公司规模：
+		 				</td>
+		 				<td>
+	 						<select name="scale">
+	 							<option value="0">请选择</option>
+	 							<option value="1" {if value="$data['scale'] eq '20人以下'"} selected="selected"{/if}>20人以下</option>
+	 							<option value="2" {if value="$data['scale'] eq '20-99人'"} selected="selected"{/if}>20-99人</option>
+	 							<option value="3" {if value="$data['scale'] eq '100-499人'"} selected="selected"{/if}>100-499人</option>
+	 							<option value="4" {if value="$data['scale'] eq '500-999人'"} selected="selected"{/if}>500-999人</option>
+	 							<option value="5" {if value="$data['scale'] eq '1000-9999人'"} selected="selected"{/if}>1000-9999人</option>
+	 							<option value="6" {if value="$data['scale'] eq '10000人以上'"} selected="selected"{/if}>10000人以上</option>
+	 						</select>
+		 				</td>
+		 			</tr>
+		 			<tr>
+		 				<td class="name">
+		 					注册资金：
+		 				</td>
+		 				<td class="area">
+		 					<input class="user_input w_80" type="text" value="{$data.registermoney}" name="registermoney">
+		 					万
+		 					<select name="moneytype" class="sel">
+	 							<option value="1" {if value="$data['moneytype'] eq '人民币'"} selected="selected"{/if}>人民币</option>
+	 							<option value="2" {if value="$data['moneytype'] eq '美元'"} selected="selected"{/if}>美元</option>
+	 							<option value="3" {if value="$data['moneytype'] eq '欧元'"} selected="selected"{/if}>欧元</option>
+	 							<option value="4" {if value="$data['moneytype'] eq '英镑'"} selected="selected"{/if}>英镑</option>
+	 						</select>
+		 				</td>
+		 			</tr>
+		 			<tr>
+		 				<td class="name">
+		 					<span>*</span>
+		 					联系人：
+		 				</td>
+		 				<td>
+		 					<input class="user_input w_200" type="text" value="{$data.companypeople}" name="companypeople">
+		 				</td>
+		 			</tr>
+		 			<tr>
+		 				<td class="name">
+		 					<span>*</span>
+		 					联系电话：
+		 				</td>
+		 				<td>
+		 					<input class="user_input w_200" type="text" value="{$data.companynumber}" name="companynumber">
+		 				</td>
+		 			</tr>
+		 			<tr>
+		 				<td class="name">
+		 					<span>*</span>
+		 					联系邮箱：
+		 				</td>
+		 				<td>
+		 					<input class="user_input w_200" type="text" value="{$data.companymail}" name="companymail">
+		 				</td>
+		 			</tr>
+		 			<tr>
+		 				<td class="name">
+		 					公司网址：
+		 				</td>
+		 				<td>
+		 					<input class="user_input w_200" type="text" value="{$data.companyurl}" name="companyurl">
+		 				</td>
+		 			</tr>
+		 			<tr>
+		 				<td class="name">
+		 					通讯地址：
+		 				</td>
+		 				<td>
+		 					<input class="user_input w_447" type="text" value="{$data.companyaddress}" name="companyaddress">
+		 				</td>
+		 			</tr>
+		 			<tr>
+		 				<td class="name" valign="top" align="right">
+		 					<span>*</span>
+		 					公司简介：
+		 				</td>
+		 				<td class="area"><textarea name="companyintro">{$data.companyintro}</textarea>		
+		 					<br>
+		 				</td>
+		 			</tr>
+		 			<tr>
+		 				<td></td>
+		 				<td>
+		 					<input type="submit" class="sub" value="保存">
+		 				</td>
+		 			</tr>
+		 		</table>
+		 	</form>					
+		</div>
+		<!-- 右边盒子结束 -->	
+	</div>
+	<!-- 内容大盒子结束 -->	
+	<!-- 页脚开始 -->
+	<div class="footer">
+		<!-- 欢迎加入php群开始 -->
+		<div class="wec">
+			 欢迎加入PHP交流群 
+			 410004417
+			  网站备案：<a href="" class="yue">京ICP备*******号-* </a>
+			
+			  <a href="">
+			  	<img src="__PUBLIC__/images/pic.gif" alt="" />
+			  </a>
+		</div>
+		<!-- 欢迎加入php群结束 -->
+		<!-- 温馨提示开始 -->
+		<div class="rem">
+			温馨提示：招聘单位无权收取任何费用，请求职者加强自我保护意，按照相关劳动法规保护自身权益，警惕虚假招聘，避免上当受骗
+			<br />
+			Copyright @ 2011-2015  houdunwang.com  All Right Reserved   本网站部分内容只转载原作的部分内容，若有异议，请与本站负责人联系，我们将予以改正！ 
+		</div>
+		<!-- 温馨提示结束 -->
+	</div>
+	<!-- 页脚结束 -->
+</body>
+</html>
+	<!-- 返回顶部开始 -->
+<div class="backtop_box">
+	<a href="javascript:vido(0)" class="backtop"></a>
+</div>
+<!-- 返回顶部结束 -->

@@ -1,0 +1,127 @@
+/*右边盒子开始*/
+.right_box{
+	position: relative;
+	float: left;
+	width:785px;
+	margin-bottom: 20px;
+	padding-bottom: 50px;
+	border:1px solid #C9D9E7;
+	overflow: hidden;
+}
+.right_box .title_box{
+	height:28px;
+	background: url(../images/08.gif) repeat-x;
+	border-bottom: 1px solid #C9D9E7;
+}
+.right_box .title_box h1{
+	font-family: Arial,​Helvetica,​sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color:#376BA6;
+	padding-left: 15px;
+	line-height: 28px;
+}
+table{
+	width:100%;
+	margin-top: 10px;
+	border-collapse: collapse;
+
+}
+table.edit_table tr td{
+	font-size: 12px;
+	color:#333333;
+	border: none;
+}
+table tr td.name{
+	width:90px;
+	height:35px;
+	text-align: right;
+	font-size: 12px;
+	color:#333333;
+}
+table tr td.name span{
+	color:#FF3300;
+	font-weight: bold;
+
+}
+table tr td input.user_input{
+	width:350px;
+/*	height:16px;*/
+	padding:3px;
+	border:1px solid #7F9DB9;
+	font-size: 12px;
+	color:#000000;
+	line-height: 14.4px;
+	vertical-align: middle;
+}
+
+table tr td select{
+	width:200px;
+	height:23px;
+	line-height: 23px;
+}
+
+
+
+table tr td input.w_80{
+	width:80px;
+}
+table tr td input.w_200{
+	width:200px;
+}
+table tr td input.w_447{
+	width:447px;
+}
+table tr td label{
+	font-size: 12px;
+	color:#333333;
+	padding-left: 10px;
+}
+table tr td label input{
+	font-size: 11px;
+	color:#000000;
+}
+table tr td textarea{
+	width:450px;
+	height:150px;
+	margin-bottom: 6px;
+	font-size: 12px;
+	color:#000000;
+	line-height: 21.6px;	
+}
+table tr td span.model{
+	color:#0033CC;
+	margin-right: 200px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+table tr td.h_160{
+	height: 160px;
+	line-height: 26.6px;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+table tr.bg_tr{
+	background: #E4F2F8;
+	margin-top: 5px;
+}
+table tr td input.sub{
+	width:95px;
+	height:28px;
+	background: url(../Images/23.gif) repeat-x;
+	font-size: 12px;
+	color:#000000;
+	font-family: "Lucida Grande";
+	text-align: center;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+table tr td input.sub_bg{
+	background: url(../Images/23.gif) 0 -28px no-repeat;
+}
+table tr td.area select.sel{
+	width:99px;
+}

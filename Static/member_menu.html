@@ -1,0 +1,130 @@
+{if value="$_SESSION['rid']==2"}
+<!-- 如果为2证明是企业用户 -->
+	<div class="nav_box">
+		<!-- tab切换盒子头部 -->
+		<div class="tab_top">
+			<ul>
+				<li><a href="" class="hover">中心首页</a></li>
+				<li><a href="">职位管理</a></li>
+				<li><a href="">招聘管理</a></li>
+				<li><a href="">公司资料</a></li>
+				<li><a href="">账户管理</a></li>
+			</ul>
+		</div>
+		<!-- tab切换盒子头部结束 -->
+			<!-- tab切换盒子底部 -->
+	<div class="tab_bottom"></div>
+	<!-- tab切换盒子底部结束-->
+	</div>
+	<!-- 左边盒子 -->	
+
+		<div class="left_box">
+			<!-- //否则为企业用户 -->
+			<div class="menu_box">
+				<div class="title">
+					<p>职位管理</p>
+					<b></b>
+				</div>
+				<ul class="menu_content">
+					<li><a href="">发布职位</a></li>
+					<li><a href="">已发布职位</a></li>
+				</ul>
+			</div>
+
+			<div class="menu_box">
+				<div class="title">
+					<p>招聘管理</p>
+					<b></b>
+				</div>
+				<ul class="menu_content">
+					<li><a href="">搜索人才</a></li>
+					<li><a href="">我收到的职位申请</a></li>
+				</ul>
+			</div>
+
+			<div class="menu_box">
+				<div class="title">
+					<p>公司信息</p>
+					<b></b>
+				</div>
+				<ul class="menu_content">
+					<li><a href="">基本信息</a></li>
+					<li><a href="">营业执照</a></li>
+					<li><a href="">企业Logo</a></li>
+				</ul>
+			</div>
+
+			<!-- 公共个人资料部分 -->
+			<div class="menu_box">
+				<div class="title">
+					<p>账户管理</p>
+					<b></b>
+				</div>
+				<ul class="menu_content">
+					<li><a href="">个人资料</a></li>
+					<li><a href="">密码修改</a></li>
+					<li><a href="">安全退出</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 左边盒子结束 -->	
+
+{/if}
+{if value="$_SESSION['rid']==1"}
+<!-- 如果为1证明是个人用户 -->
+<div class="nav_box">
+	<!-- tab切换盒子头部 -->
+	<div class="tab_top">
+		<ul class="tab_top_ul">
+			<li id="member_index"><a href="">中心首页</a></li>
+			<li id="make"><a href="">简历管理</a></li>
+			<li id="apply_job"><a href="">求职管理</a></li>
+			<li id="user_manager"><a href="">账户管理</a></li>
+		</ul>
+	</div>
+	<!-- tab切换盒子头部结束 -->
+		<!-- tab切换盒子底部 -->
+	<div class="tab_bottom"></div>
+	<!-- tab切换盒子底部结束-->
+</div>
+<!-- 左边盒子 -->	
+
+		<div class="left_box">
+		<!-- 如果为1证明是个人用户 -->
+			<div class="menu_box">
+				<div class="title">
+					<p>简历管理</p>
+					<b></b>
+				</div>
+				<ul class="menu_content">
+					<li><a href="">创建新简历</a></li>
+					<li><a href="">简历管理</a></li>
+				</ul>
+			</div>
+
+			<div class="menu_box">
+				<div class="title">
+					<p>求职管理</p>
+					<b></b>
+				</div>
+				<ul class="menu_content">
+					<li><a href="">搜索职位</a></li>
+					<li><a href="">申请过的职位</a></li>
+				</ul>
+			</div>
+			<!-- 公共个人资料部分 -->
+			<div class="menu_box">
+				<div class="title">
+					<p>账户管理</p>
+					<b></b>
+				</div>
+				<ul class="menu_content">
+					<li><a href="">个人资料</a></li>
+					<li><a href="">密码修改</a></li>
+					<li><a href="{|U''}">安全退出</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 左边盒子结束 -->	
+{/if}
+		<!-- 导航栏结束 -->

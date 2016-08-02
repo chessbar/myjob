@@ -1,0 +1,101 @@
+/*内容区域右边盒子开始*/
+.content .right_box .tab_box{
+	width:761px;
+	height:30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	background: url(../images/02.gif)  0 100% repeat-x;
+}
+.content .right_box .tab_box a{
+	float: left;
+	display: block;
+	width:90px;
+	height:28px;
+	border:1px solid #CDE3F3;
+	color:#666666;
+	line-height: 28px;
+	margin-left: 8px;
+	text-align: center;
+	background: #F1FBFE;
+
+}
+.content .right_box .tab_box a.select{
+	background: #ffffff;
+	border-bottom:1px solid #FFFFFF;
+}
+.content .right_box .tab_box a.select:hover{
+	text-decoration: underline;
+	color:#009900;
+}
+
+.content .right_box table{
+	width:100%;
+	margin-top: 10px;
+}
+.content .right_box table td{
+	font-size: 12px;
+	color:#333333;
+	padding-top: 5px;
+}
+.content .right_box table td.name{
+	width:90px;
+	height:30px;
+	text-align: right;
+	padding-right: 5px;
+}
+.content .right_box table td a{
+	color:#0000EE;
+	font-size:12px;
+	padding-left: 10px;
+	text-decoration: underline;
+}
+.content .right_box table td span{
+	color:#FF3300;
+	font-weight: bold;
+}
+.content .right_box table td input{
+	width:200px;
+	/*height:16px;*/
+	color:#000000;
+	line-height: 14.4px;
+	vertical-align: middle;
+	padding:3px;
+	border:1px solid #7F9DB9;
+	font-size: 12px;
+}
+.content .right_box table td label{
+	font-size: 12px;
+	color:#333333;
+	padding-right: 10px;
+}
+.content .right_box table td label input.rad{
+	font-size: 11px;
+	width:14px;
+	height:14px;
+	color:#000000;
+	margin-right: 4px;
+	border:none;
+}
+.content .right_box table tr td textarea{
+	width:300px;
+	height: 80px;
+	line-height: 21.6px;
+	color:#000000;
+	font-size: 12px;
+}
+.content .right_box table tr td input.user_submit{
+	width: 95px;
+	height:28px;
+	background: url(../images/23.gif) repeat-x;
+	color:#000000;
+	font-family: 	"Lucida Grande";
+	border:none;
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+.content .right_box table tr td input.input_bg{
+	background: url(../images/23.gif) 0px -28px repeat-x;
+}
+
+
